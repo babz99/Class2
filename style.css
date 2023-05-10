@@ -1,0 +1,2051 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.containerBox{
+    background-image:url(./images/backHero.png);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.innerContainer{
+    width: 95%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.navy{
+    list-style: none;
+    display: flex;
+}
+
+.field{
+    margin-left: 1.5rem;
+    margin-top: -1.2rem;
+}
+
+.navy li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+.field input{
+    width: 273px;
+    height: 54px;
+    background: #EFEFEF;
+    border:none;
+    border-radius: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #18171D;
+    padding: 19px 39px;
+    gap: 64px;
+    margin-right: 1rem;
+}
+
+
+.field button{
+    width: 141px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #EF2779;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger img{
+  padding-top: 1.2rem;
+  display: none;
+}
+
+.hero{
+    display: flex;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.text{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.text h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    /* width: 321px;
+    height: 131px; */
+    margin-bottom: 2rem;
+}
+
+.text p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 298px;
+    height: 40px;
+    margin-bottom: 4rem;
+}
+
+.text button{
+    width: 236px;
+    height: 65px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #38A3F1;
+    cursor: pointer;
+}
+
+.image{
+    margin-left: -2rem;
+}
+
+.btn button{
+  display: none;
+}
+
+.features{
+    margin-top: 4rem;
+    width: 70%;
+    margin: auto;
+}
+
+.topText{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.topText h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.topText h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #252B42;
+}
+
+.topText p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #374754;
+}
+
+.Text1{
+    width: 25%;
+}
+
+.imageText{
+    display: flex;
+}
+
+.imageText h3{
+    margin-left: 0.7rem;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #252B42;
+}
+
+.slate p{
+    margin-top: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #374754;
+}
+
+.belowText{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* .section-4{
+    background-image: url("./images/Track\ background.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.sect-4a{
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px;
+    
+}
+
+.sect-4a h2{
+    font-size: 36px;
+    font-style: bold;
+    font-family: 'DM Sans', sans-serif;
+    color: #034D82;
+    line-height: 52px;
+    letter-spacing: 0.3px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+.sect-4a p{
+    color: #90A3B4;
+    font-size: 16px;
+    font-style: regular;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+    padding-bottom: 25px;
+}
+
+
+.sect-4{
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    margin-right: 25px;
+    width: 60%;
+
+}
+
+.sect-4 h4{
+    font-style: bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #034D82;
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 20px;
+}
+
+.sect-4 p{
+    font-style: regular;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #8EA9C1;
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 20px;
+
+}
+
+.sect-4>img{
+    padding-bottom: 25px;
+}
+
+.sect-4:hover{
+    background-color: #034D82;
+    color: #FFFFFF;
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+.sect-4:hover h4{
+    color: #FFFFFF;
+}
+.sect-4:hover p{
+    color: #FFFFFF;
+}
+
+
+
+.Come{
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    margin: auto;
+
+
+}
+.Sect8{
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    width: 335px;
+    height: 310px;
+    padding: 40px;
+}
+
+
+.Sect8 h3{
+    width: 44px;
+    height: 33px;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+.Sect8 h5{  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;  
+}
+
+.flex{
+    display: flex;
+}
+
+.flex h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+}
+
+.flex2{
+    margin-left: 0.5rem;
+} */
+
+/* .Sect8 button{
+    background: #38A3F1;
+    padding: 16px 0px;
+    width: 255px;
+    border-radius: 57px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-style: solid;
+    border: none;
+    margin-top: 6rem;
+}
+
+.Sect8:hover{
+background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+transform: scale(1.1);
+transition: 0.7s;
+color: #FFFFFF;
+border-radius: 10px;
+}
+
+.Sect8 button:hover{
+    background: #FFFFFF;
+    border-radius: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #EF2779;
+} */
+
+.fast {
+    margin-top: 5rem;
+    width: 70%;
+    margin: auto;
+  }
+  .text2 {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding-top: 7rem;
+    margin-bottom: 4rem;
+  }
+  .text2 h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+    padding-bottom: 2rem;
+  }
+  .text2 p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #374754;
+    padding-bottom: 4rem;
+  }
+  .text2 button {
+    width: 236px;
+    height: 65px;
+    background: #38a3f1;
+    border-radius: 35px;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: white;
+    cursor: pointer;
+  }
+  .rate{
+    /* margin-left: -21.5rem; */
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+
+.pink {
+    margin-top: 6rem;
+    margin: auto;
+    height: 571px;
+    align-items: center;
+    background: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
+  }
+  .text3 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 7rem;
+    margin-bottom: 4rem;
+  }
+  .text3 h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 1.5rem;
+  }
+  .text3 h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 3.5rem;
+  }
+  .text3 p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 3rem;
+  }
+  .email2 {
+    justify-content: center;
+    padding-bottom: 0.7rem;
+  }
+  .email2 input {
+    width: 353px;
+    height: 54px;
+    background: #ffffff;
+    border-radius: 35px;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #ef2779;
+    cursor: pointer;
+    padding-left: 2rem;
+  }
+  .burry button {
+    width: 353px;
+    height: 50px;
+    background: #ef2779;
+    border-radius: 35px;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .partners {
+    margin-top: 6rem;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    /* margin-bottom: 4rem; */
+  }
+  .text4 {
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    padding-top: 7rem;
+    /* margin-bottom: 4rem; */
+  }
+
+  .text4 h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252b42;
+    padding-bottom: 1rem;
+  }
+  .text4 h4 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    padding-bottom: 5rem;
+  }
+  .icos {
+    display: flex;
+    justify-content: space-between;
+  }
+  .icos2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .elone {
+    width: 25%;
+    padding-bottom: 2rem;
+  }
+
+  .elone h4 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #374754;
+    padding-bottom: 2rem;
+  }
+  .elone p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    padding-top: 1rem;
+  }
+  .partners button {
+    width: 236px;
+    height: 65px;
+    background: #38a3f1;
+    border-radius: 35px;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: white;
+    cursor: pointer;
+  }
+  .testimonials {
+    margin-top: 10rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 6rem;
+  }
+  .text5 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+  }
+  .text5a h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252b42;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .text5a p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .profile {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+  .viboot {
+    padding-left: 1rem;
+    text-align: left;
+  }
+  .viboot h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #374754;
+  }
+  .viboot p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+  }
+  
+  .testimonials button {
+    width: 280px;
+    height: 65px;
+    background: #38a3f1;
+    border-radius: 35px;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: white;
+    cursor: pointer;
+  }
+  .pricing {
+    margin-top: 5rem;
+    width: 80%;
+    margin: auto;
+  }
+  .text6 {
+    text-align: center;
+    margin: auto;
+    width: 27%;
+    padding-top: 4rem;
+  }
+  .text6 h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252b42;
+  }
+  .text6 h4 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .package {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+
+  .pack1 {
+    background: #ffffff;
+    border: 1px solid #dedede;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    width: 335px;
+    height: 310px;
+    padding-left: 2rem;
+  }
+  .pack1 h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+    text-align: left;
+    padding-top: 2rem;
+  }
+  .pack1 h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #374754;
+    text-align: left;
+    padding-bottom: 3rem;
+  }
+  .dollar {
+    display: flex;
+  }
+  
+  .dollar h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+    
+  }
+  .per {
+    margin-top: -2.3rem;
+    padding-left: 0.8rem;
+  }
+  .per h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #374754;
+  }
+  .per h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+  .vboy {
+    width: 255px;
+    height: 52px;
+    background: #38a3f1;
+    border-radius: 35px;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: white;
+    cursor: pointer;
+  }
+  .pack1:hover {
+    width: 335px;
+    height: 310px;
+    background: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
+    border: 1px solid #dedede;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.7s;
+    color: #ffffff;
+  }
+  .pack1:hover button{
+    width: 255px;
+    height: 52px;
+    background: #ffffff;
+    border-radius: 35px;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: #ef2779;
+    cursor: pointer;
+  }
+  
+  .pack1:hover h3 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: 0.1px;
+      color: #ffffff;
+      text-align: left;
+      padding-top: 2rem;
+    }
+    .pack1:hover h5{
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.1px;
+      color: #ffffff;
+      text-align: left;
+      padding-bottom: 3rem;
+    }
+    .dollar{
+      display: flex;
+    }
+    .dollar:hover h1{
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 66px;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+    }
+    
+    .contact {
+      background: #252b42;
+      margin-top: 3rem;
+      width: 100%;
+      margin: auto;
+      padding-bottom: 3rem;
+    }
+
+    .text7 {
+      width: 22%;
+      margin-top: 5rem;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 5rem;
+    }
+    .text7 h2 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 46px;
+      line-height: 57px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+      padding-top: 5rem;
+      padding-bottom: 3rem;
+    }
+    .text7 h4 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+    }
+    .formal {
+      display: flex;
+      justify-content: space-between;
+      width: 75%;
+      margin: auto;
+    }
+
+    .fill {
+        width: 40%;
+        margin: auto;
+        background: #ffffff;
+        border: 0.65371px solid #dddddd;
+        box-shadow: 0px 8.49823px 12.4205px rgba(0, 0, 0, 0.07);
+        border-radius: 13.0742px;
+    }
+    /* .fill input {
+      width: 353px;
+      height: 54px;
+      background: #ffffff;
+      border-radius: 35px;
+      border: none;
+      font-family: "Roboto";
+      font-style: normal;
+      font-size: 16px;
+      letter-spacing: 0.2px;
+      color: #ef2779;
+      cursor: pointer;
+    
+    } */
+    .form {
+      /* margin: auto; */
+      text-align: center;
+      margin-top: 4rem;
+    }
+
+    .form input {
+      width: 318.72px;
+      height: 35.84px;
+      background: #f5f5f5;
+      border: 1px solid #e8e8e8;
+      border-radius: 39px;
+      margin-bottom: 2rem;
+      padding-left: 1rem;
+    }
+
+    .combox {
+      margin: auto;
+      text-align: center;
+    }
+    .combox input {
+      width: 318.72px;
+      height: 126.17px;
+      background: #f5f5f5;
+      border: 1px solid #e8e8e8;
+      /* padding-right: -rem; */
+      color: #18171d;
+      border-radius: 0%;
+      padding-left: 1rem;
+      padding-bottom: 5rem;
+    }
+    .fill button {
+      width: 94.79px;
+      height: 34.53px;
+      background: #ef2779;
+      border-radius: 35px;
+      border: none;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+      cursor: pointer;
+      margin-top: 2rem;
+      margin-left: 3rem;
+      margin-bottom: 3rem;
+    }
+    .info {
+      margin-top: 6rem;
+      width: 40%;
+    }
+    .address {
+      display: flex;
+      padding-bottom: 1rem;
+      margin: auto;
+    }
+    .address img {
+      padding-right: 2rem;
+    }
+    .address h5 {
+      width: 50%;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.1px;
+      color: #ffffff;
+    }
+    .number {
+      display: flex;
+      padding-bottom: 1rem;
+      margin: auto;
+      padding-top: 1rem;
+    }
+
+    .number img {
+      padding-right: 2rem;
+    }
+    .number h5 {
+      width: 50%;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.1px;
+      color: #ffffff;
+    }
+    .mail {
+      display: flex;
+      padding-bottom: 1rem;
+      margin: auto;
+    }
+    .mail img {
+      padding-right: 2rem;
+    }
+    .mail h5 {
+      width: 50%;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.1px;
+      color: #ffffff;
+    }
+    .socials {
+      margin-top: 4rem;
+      display: flex;
+    }
+    .socials img {
+      padding-left: 2rem;
+    }
+    .footer {
+      height: 507px;
+      background: #ffffff;
+    }
+    .pages {
+      margin: auto;
+      margin-top: 12rem;
+      display: flex;
+      justify-content: space-evenly;
+      /* width: 80%; */
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .text8 {
+      margin-left: 5rem;
+      margin: auto;
+  }
+  .text8 h3 {
+    padding-bottom: 1.5rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+  .text8 li {
+    list-style: none;
+    padding-bottom: 1rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+  }
+  .mapo1 img {
+    margin-top: -2rem;
+    /* padding-left: 3rem; */
+  }
+  .info1 {
+    margin-top: -2rem;
+    padding-left: 4rem;
+  }
+  .address1 {
+    display: flex;
+    padding-bottom: 1.5rem;
+    margin: auto;
+  }
+  .address1 img {
+    padding-right: 2rem;
+  }
+  .address1 h5 {
+    width: 50%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #374754;
+  }
+  .number1 {
+    display: flex;
+    padding-bottom: 1.5rem;
+    margin: auto;
+  }
+  .number1 img {
+    padding-right: 2rem;
+  }
+  .number1 h5 {
+    width: 50%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #374754;
+  }
+  .mail1 {
+    display: flex;
+    padding-bottom: 1.5rem;
+    margin: auto;
+  }
+  .mail1 img {
+    padding-right: 2rem;
+  }
+  .mail1 h5 {
+    width: 50%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #374754;
+  }
+  .socials {
+    margin-top: 2rem;
+    display: flex;
+  }
+  .socials img {
+    padding-left: 2rem;
+  }
+
+
+  @media  screen and (max-width: 1024px) {
+    .navy li{
+        font-weight: 200;
+        font-size: 12px;
+        padding-right: 1rem;
+       
+    }
+
+    .image>img{
+        width: 90%;
+    }
+
+    .text{
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+
+    .text h1{
+        font-size: 50px;
+        margin-bottom: 1rem;
+    }
+    
+    .text p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 3rem;
+    }
+
+    .features{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .topText{
+        width: 40%;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    
+    .topText p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        color: #374754;
+    }
+    
+    .Text1{
+        width: 29%;
+    }
+
+    .slate p{
+        font-size: 16px;
+    }
+
+    .text2 {
+        width: 50%;
+        margin: auto;
+        align-items: center;
+      }
+
+      .text2 p {
+        font-size: 18px;
+      }
+
+
+      .rate>img{
+        width: 100%;
+      }
+
+      .text3 {
+        width: 70%;
+      }
+
+      .elone {
+        width: 30%;
+      }
+
+      .pack1 {
+        width: 250px;
+        height: 310px;
+        padding-left: 2rem;
+      }
+
+      .vboy {
+        width: 190px;
+      }
+
+      .info {
+        margin-top: 6rem;
+        margin-left: 0rem;
+      }
+
+      .formal {
+        width:100%;
+        margin: auto;
+      }
+
+  }
+
+  @media screen and (max-width: 768px){
+    .navy li{
+        font-size: 12px;
+        padding-right: 0.8rem;
+       
+    }
+    
+    .field input{
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+        padding: 8px 20px;
+      
+    }
+
+    .field button{
+        width: 80px;
+        height: 40px;
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+    .logo>img{
+        width: 80%;
+    }
+
+    .hero{
+        width: 80%;
+        margin: auto;
+    }
+
+    .image>img{
+        width: 100%;
+    }
+
+    .image{
+        width: 100%;
+        margin-left: -6rem;
+    }
+
+    .text{
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .text h1{
+        font-size: 32px;
+        margin-bottom: 1rem;
+        line-height: 35px;
+    }
+
+    .text p{
+        font-size: 10px;
+        line-height: 14px;
+        width: 80%;
+        margin-bottom: 1rem;
+        font-weight: 100;
+    }
+
+    .text button{
+        width: 120px;
+        height: 35px;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    .features{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .topText{
+      width: 45%;
+    }
+    
+    .topText h1{
+        font-size: 38px;
+        line-height: 47px;
+    }
+    
+    .topText h4{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        color: #252B42;
+    }
+    
+    .topText p{
+        font-weight: 200;
+        font-size: 14px;
+    }
+
+    .imageText h3{
+      margin-left: 0.7rem;
+      font-size: 14px;
+    }
+  
+    .slate p{
+        margin-top: 1rem;
+        font-size: 12px;
+    }
+
+    .imageText>img{
+      width: 22%;
+    }
+
+    .text2 p {
+      font-weight: 200;
+      font-size: 14px;
+      padding-bottom: 2rem;
+    }
+
+    .text2 h2 {
+      font-size: 38px;
+      padding-bottom: 1rem;
+    }
+
+    .text4 {
+      width: 60%;
+    }
+
+    .text4 h4 {
+      font-weight: 200;
+      font-size: 14px;
+    }
+
+    .text4 h2 {
+      font-size: 38px;
+      padding-bottom: 0.5rem;
+    }
+
+    .text2 button {
+      width: 176px;
+      height: 50px;
+      font-weight: 200;
+      font-size: 18px;
+    }
+
+    .text3 h3 {
+      font-weight: 500;
+      font-size: 18px;
+      padding-bottom: 1.5rem;
+    }
+    .text3 h2 {
+      font-weight: 400;
+      font-size: 38px;
+      padding-bottom: 2.5rem;
+    }
+
+    .text3 p {
+      font-size: 16px;
+      padding-bottom: 2rem;
+    }
+
+    .email2 input {
+      width: 253px;
+      height: 50px;
+      font-size: 14px;
+      padding-left: 2rem;
+    }
+    .burry button {
+      width: 253px;
+      height: 50px;
+      font-weight: 200;
+      font-size: 14px;
+    }
+
+    .elone {
+      width: 30%;
+      padding-bottom: 2rem;
+    }
+  
+    .elone h4 {
+      font-weight: 500;
+      font-size: 12px;
+      padding-bottom: 2rem;
+    }
+    .elone p {
+      font-size: 12px;
+      padding-top: 1rem;
+      line-height: 17px;
+    }
+
+    .partners button {
+      width: 176px;
+      height: 50px;
+      font-weight: 200;
+      font-size: 18px;
+      margin-top: 1.5rem;
+    }
+
+    .text5 {
+      width: 90%;
+    }
+
+    .text5a h2 {
+      font-size: 38px;
+      line-height: 37px;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+    .text5a p {
+      font-weight: 200;
+      font-size: 14px;
+    }
+
+    .testimonials button {
+      width: 176px;
+      height: 50px;
+      font-weight: 200;
+      font-size: 18px;
+    }
+
+  }
+
+
+
+
+  @media screen and (max-width: 425px){
+   
+
+    .hamburger img{
+      display: block;
+    }
+
+    .navigation{
+      display: none;
+    }
+
+    .containerBox{
+      background-image:url(./images/mobileback.png);
+      background-repeat: repeat;
+      background-size: cover;
+      width: 100%;
+      /* height: 100%; */
+  }
+
+    .hero{
+      display: flex;
+     flex-direction: column-reverse;
+  }
+
+  .logo{
+    margin-left: 1rem;
+  }
+   
+  .text{
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  .text h1{
+    font-size: 50px;
+    margin-bottom: 0rem;
+    line-height: 50px;
+    font-weight: 200;
+  }
+
+  .text p{
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 8rem;
+    width: 80%;
+    margin: auto;
+    padding-top: 2.5rem;
+    font-weight: 50;
+  }
+
+  .image>img{
+    width: 120%;
+    margin-left: -2rem;
+    margin-top: 2rem;
+  }
+
+  .image{
+    width: 100%;
+    margin: auto;
+    margin-left: 0rem;
+    padding-bottom: 2rem;
+  }
+
+  .text button{
+    display: none;
+  }
+
+  .btn button{
+    display: block;
+    width: 236px;
+    height: 65px;
+    background: #38A3F1;
+    border-radius: 35px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0rem auto;
+  }
+
+
+.topText{
+  width: 85%;
+  margin-top: 8rem;
+}
+
+.topText h1{
+    font-size: 44px;
+    line-height: 47px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 1rem 0;
+}
+
+.topText p{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.Text1{
+  width: 75%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.imageText h3{
+  margin-left: 0.7rem;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #252B42;
+  letter-spacing: 0.5px;
+}
+
+.slate p{
+  margin-top: 1rem;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #374754;
+
+}
+
+.imageText>img{
+  width: 15%;
+}
+
+.belowText{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fast {
+  margin-top: 5rem;
+  width: 90%;
+  margin: auto;
+}
+.text2 {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 7rem;
+  margin-bottom: 4rem;
+}
+.text2 h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 46px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  padding-bottom: 2rem;
+}
+.text2 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #374754;
+  padding-bottom: 4rem;
+}
+
+.email2 input {
+  width: 353px;
+  height: 54px;
+  font-size: 14px;
+  padding-left: 2rem;
+}
+.burry button {
+  width: 353px;
+  height: 54px;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.text3 {
+  width: 80%;
+  margin: auto;
+}
+
+.pink {
+  margin-top: 6rem;
+  margin: auto;
+  height: 600px;
+}
+
+.text3 h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 21px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 1.5rem;
+  letter-spacing: 0.1px;
+}
+
+.text3 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  color: #ffffff;
+  padding-bottom: 3rem;
+}
+
+.partners {
+  margin-top: 6rem;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  /* margin-bottom: 4rem; */
+}
+.text4 {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  padding-top: 7rem;
+  /* margin-bottom: 4rem; */
+}
+
+.icos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icos2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+
+.elone {
+  width: 55%;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+
+.elone h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #374754;
+  padding-bottom: 2rem;
+}
+
+.elone p {
+  width: 95%;
+  /* height: 120px; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #374754;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.partners button {
+  width: 236px;
+  height: 65px;
+  background: #38a3f1;
+  border-radius: 35px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: white;
+  cursor: pointer;
+}
+
+.testimonials button {
+  width: 280px;
+  height: 65px;
+  background: #38a3f1;
+  border-radius: 35px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: white;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.text5a p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #374754;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.viboot {
+  padding-top: 0.5rem;
+}
+
+
+.text6 {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding-top: 4rem;
+}
+
+.text6 h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.text6 h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #374754;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.package {
+  display: flex;
+  flex-direction: column;
+}
+.pack1 {
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  width: 335px;
+  height: 310px;
+  padding-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+.pack1 h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  text-align: left;
+  padding-top: 2rem;
+}
+
+.pack1 h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #374754;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+
+.dollar {
+  display: flex;
+}
+
+.dollar h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 66px;
+  letter-spacing: 0.2px;
+  
+}
+.per {
+  margin-top: -2.3rem;
+  padding-left: 0.8rem;
+}
+.per h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+.per h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.vboy {
+  width: 255px;
+  height: 52px;
+  background: #38a3f1;
+  border-radius: 35px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: white;
+  cursor: pointer;
+}
+.pack1:hover {
+  width: 335px;
+  height: 310px;
+  background: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
+  border: 1px solid #dedede;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  transform: scale(1.1);
+  transition: 0.7s;
+  color: #ffffff;
+}
+.pack1:hover button{
+  width: 255px;
+  height: 52px;
+  background: #ffffff;
+  border-radius: 35px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #ef2779;
+  cursor: pointer;
+}
+
+.pack1:hover h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 2rem;
+  }
+  .pack1:hover h5{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    text-align: left;
+    padding-bottom: 3rem;
+  }
+  .dollar{
+    display: flex;
+  }
+  .dollar:hover h1{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+
+.formal {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.form input {
+  width: 258.72px;
+  height: 35.84px;
+}
+
+.combox input {
+  width: 258.72px;
+  height: 126.17px;
+}
+
+.fill{
+  width: 80%;
+}
+
+.info {
+  padding-bottom: 5rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.address h5{
+  width: 100%;
+}
+
+.reverse{
+  padding-top: 5rem;
+  width: 80%;
+  margin: auto;
+}
+
+.text7 {
+  width: 70%;
+  margin-top: 5rem;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.socials{
+  width: 80%;
+  margin: auto;
+}
+
+.number{
+  margin-bottom: 1rem;
+}
+
+.number h5 {
+  padding-top: 0.5rem;
+}
+
+}
